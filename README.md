@@ -1,24 +1,13 @@
 # human-pose-estimation-opencv
 Perform Human Pose Estimation in OpenCV Using OpenPose MobileNet
 
-![OpenCV Using OpenPose MobileNet](output.JPG)
+INPUT:
+![input image](https://github.com/user-attachments/assets/2d316afa-e3a9-45cd-b70f-d2eeb1f7403e)
+
+OUTPUT:
+![output image](https://github.com/user-attachments/assets/fca20bb6-0301-4b0a-8114-3f83aff83082)
 
 
 # How to use
 
-- Test with webcam
-
-```
-python openpose.py
-```
-
-- Test with image
-```
-python openpose.py --input image.jpg
-```
-
-- Use `--thr` to increase confidence threshold
-
-```
-python openpose.py --input image.jpg --thr 0.5
-```
+upload an image from your local file
